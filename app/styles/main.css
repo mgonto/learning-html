@@ -1,0 +1,25 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.sidebar, .main {
+  border: 1px solid red;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.sidebar {
+    width: 33%;
+    float: left;
+    height: 100%;
+}
+
+.main {
+    width: 67%;
+    float: left;
+    height: 100%;
+}
